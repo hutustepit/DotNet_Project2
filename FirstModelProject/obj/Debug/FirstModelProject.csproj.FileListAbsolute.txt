@@ -48,3 +48,5 @@ C:\Users\Student\Documents\Bogdi .NET\FirstModelProject\FirstModelProject\obj\De
 C:\Users\Student\Documents\Bogdi .NET\FirstModelProject\FirstModelProject\obj\Debug\FirstModelProject.csproj.GenerateResource.Cache
 C:\Users\Student\Documents\Bogdi .NET\FirstModelProject\FirstModelProject\obj\Debug\FirstModelProject.Migrations.NewColumnPriceRON.resources
 C:\Users\Student\Documents\Bogdi .NET\FirstModelProject\FirstModelProject\obj\Debug\FirstModelProject.Migrations.NewColumnPriceRON1.resources
+C:\Users\Student\Documents\Bogdi .NET\FirstModelProject\FirstModelProject\obj\Debug\FirstModelProject.Migrations.NewTablePerson.resources
+C:\Users\Student\Documents\Bogdi .NET\FirstModelProject\FirstModelProject\obj\Debug\FirstModelProject.Migrations.Globals.resources

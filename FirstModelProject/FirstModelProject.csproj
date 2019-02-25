@@ -148,8 +148,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\GlobalsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
+    <Compile Include="Controllers\PeopleController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -165,7 +167,17 @@
     <Compile Include="Migrations\201902181829229_NewColumnPriceRON1.Designer.cs">
       <DependentUpon>201902181829229_NewColumnPriceRON1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201902251719036_NewTablePerson.cs" />
+    <Compile Include="Migrations\201902251719036_NewTablePerson.Designer.cs">
+      <DependentUpon>201902251719036_NewTablePerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902251856020_Globals.cs" />
+    <Compile Include="Migrations\201902251856020_Globals.Designer.cs">
+      <DependentUpon>201902251856020_Globals.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Globals.cs" />
+    <Compile Include="Models\Person.cs" />
     <Compile Include="Models\FirstModelProjectContext.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -212,6 +224,16 @@
     <Content Include="Views\Movies\Details.cshtml" />
     <Content Include="Views\Movies\Edit.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\People\Create.cshtml" />
+    <Content Include="Views\People\Delete.cshtml" />
+    <Content Include="Views\People\Details.cshtml" />
+    <Content Include="Views\People\Edit.cshtml" />
+    <Content Include="Views\People\Index.cshtml" />
+    <Content Include="Views\Globals\Create.cshtml" />
+    <Content Include="Views\Globals\Delete.cshtml" />
+    <Content Include="Views\Globals\Details.cshtml" />
+    <Content Include="Views\Globals\Edit.cshtml" />
+    <Content Include="Views\Globals\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -239,6 +261,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201902181829229_NewColumnPriceRON1.resx">
       <DependentUpon>201902181829229_NewColumnPriceRON1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902251719036_NewTablePerson.resx">
+      <DependentUpon>201902251719036_NewTablePerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902251856020_Globals.resx">
+      <DependentUpon>201902251856020_Globals.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

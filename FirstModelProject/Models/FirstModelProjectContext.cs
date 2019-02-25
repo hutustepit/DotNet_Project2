@@ -20,5 +20,9 @@ namespace FirstModelProject.Models
         }
 
 		public System.Data.Entity.DbSet<FirstModelProject.Models.Movie> Movies { get; set; }
+
+		public System.Data.Entity.DbSet<FirstModelProject.Models.Person> People { get; set; }
+
+		public System.Data.Entity.DbSet<FirstModelProject.Models.Globals> Globals { get; set; }
 	}
 }

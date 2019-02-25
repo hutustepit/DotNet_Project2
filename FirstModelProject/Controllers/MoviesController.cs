@@ -50,7 +50,10 @@ namespace FirstModelProject.Controllers
         {
             if (ModelState.IsValid)
             {
-				movie.PriceRon = movie.Price * 5;
+				//movie.Price = movie.Price * 4,82;
+				GlobalsController globalsC = new GlobalsController();
+
+				movie.PriceRon = movie.Price * (decimal)globalsC.GetById(1).EurToRon;
 				db.Movies.Add(movie);
                 db.SaveChanges();
                 return RedirectToAction("Index");
